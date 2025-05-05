@@ -498,6 +498,7 @@ Promise.all([
 .then(([adam, joe]) => {
     adam.detachFrom(joe) // Adam does not know Joe
 });
+```
 
 ### Deleting a node
 You can delete a Node instance directly by calling the `delete()` method.
